@@ -1,0 +1,11 @@
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\AggregatorServiceApplication.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\config\ApplicationConfiguration.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\controller\advice\ApplicationExceptionHandler.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\controller\StockController.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\controller\TradeController.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\controller\UserController.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\dto\PriceUpdateDto.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\service\PriceUpdateListener.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\service\PriceUpdateSubscriptionInitializer.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\service\TradeService.java
+D:\programming\grpc-java-course-master\03-grpc-trading-platform\aggregator-service\src\main\java\com\vinsguru\aggregator\service\UserService.java

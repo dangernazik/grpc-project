@@ -1,0 +1,11 @@
+com\vinsguru\aggregator\controller\advice\ApplicationExceptionHandler.class
+com\vinsguru\aggregator\service\PriceUpdateSubscriptionInitializer.class
+com\vinsguru\aggregator\controller\UserController.class
+com\vinsguru\aggregator\controller\TradeController.class
+com\vinsguru\aggregator\service\PriceUpdateListener.class
+com\vinsguru\aggregator\service\UserService.class
+com\vinsguru\aggregator\AggregatorServiceApplication.class
+com\vinsguru\aggregator\controller\StockController.class
+com\vinsguru\aggregator\config\ApplicationConfiguration.class
+com\vinsguru\aggregator\service\TradeService.class
+com\vinsguru\aggregator\dto\PriceUpdateDto.class

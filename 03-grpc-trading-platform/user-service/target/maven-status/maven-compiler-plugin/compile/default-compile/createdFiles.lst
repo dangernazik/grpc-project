@@ -1,0 +1,15 @@
+com\vinsguru\user\service\advice\ServiceExceptionHandler.class
+com\vinsguru\user\exceptions\InsufficientBalanceException.class
+com\vinsguru\user\exceptions\UnknownUserException.class
+com\vinsguru\user\service\handler\StockTradeRequestHandler.class
+com\vinsguru\user\repository\PortfolioItemRepository.class
+com\vinsguru\user\service\UserService.class
+com\vinsguru\user\entity\User.class
+com\vinsguru\user\util\EntityMessageMapper.class
+com\vinsguru\user\UserServiceApplication.class
+com\vinsguru\user\repository\UserRepository.class
+com\vinsguru\user\service\handler\UserInformationRequestHandler.class
+com\vinsguru\user\entity\PortfolioItem.class
+com\vinsguru\user\exceptions\InsufficientSharesException.class
+com\vinsguru\user\config\ServerConfiguration.class
+com\vinsguru\user\exceptions\UnknownTickerException.class
