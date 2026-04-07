@@ -31,12 +31,24 @@ public class UserService extends UserServiceGrpc.UserServiceImplBase {
 
     @Override
     public void tradeStock(StockTradeRequest request, StreamObserver<StockTradeResponse> responseObserver) {
-        log.info("{}", request);
-        var response = TradeAction.SELL.equals(request.getAction()) ?
+        long startTime = System.currentTimeMillis();
+
+        log.info("Отримано запит на торгову операцію: {}", request);
+
+        StockTradeResponse response = TradeAction.SELL.equals(request.getAction()) ?
                 this.tradeRequestHandler.sellStock(request) :
                 this.tradeRequestHandler.buyStock(request);
+
+        long elapsed = System.currentTimeMillis() - startTime;
+        log.info("Час виконання торгової операції: {} ms", elapsed);
+
         responseObserver.onNext(response);
         responseObserver.onCompleted();
+
+        // Якщо хочеш, можеш тут додати перевірку та логування, якщо час занадто великий
+        if (elapsed > 200) {
+            log.warn("Увага! Час виконання торгової операції перевищує 200 мс: {} ms", elapsed);
+        }
     }
 
 }
