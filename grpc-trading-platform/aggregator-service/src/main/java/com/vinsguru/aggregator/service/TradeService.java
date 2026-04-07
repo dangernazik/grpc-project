@@ -20,7 +20,9 @@ public class TradeService {
     public StockTradeResponse trade(StockTradeRequest request){
         var priceRequest = StockPriceRequest.newBuilder().setTicker(request.getTicker()).build();
         var priceResponse = this.stockClient.getStockPrice(priceRequest);
-        var tradeRequest = request.toBuilder().setPrice(priceResponse.getPrice()).build();
+        var tradeRequest = request.toBuilder()
+                                  .setPrice(priceResponse.getPrice())
+                                  .build();
         return this.userClient.tradeStock(tradeRequest);
     }
 
